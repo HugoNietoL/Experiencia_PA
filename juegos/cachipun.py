@@ -7,7 +7,7 @@ def cachipun():
         print("EMPATEEE")
     elif (j == 1 and c == 2) or (j == 2 and c == 3) or (j == 3 and c == 1):
         print("GANASTEEE")
-    elif j <=3 and j>= 1:
+    elif not( j <=3 and j>= 1):
         print("Ingresa un numero valido")
     else:
         print("PERDISTEEE")
